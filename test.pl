@@ -1,6 +1,6 @@
-sub func
+sub function
 {
 die "dieing in subroutine func\n";
 }
-eval { func(); };
+eval { function(); };
 print "Error captured : $@\n";
